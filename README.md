@@ -1,9 +1,10 @@
-# Alexis Speech Assistant
+# Alexis: Voice Assistant
 
 ## About 
-Python app that uses speech recognition and text-to-speech module to perform actions
-based on user's voice commands. This app initially used the Google text-to-speech API(gTTS), 
-but has been updated to use the offline text-to-speech module pyttsx3.
+Python app that uses (speech recognition)[https://pypi.org/project/SpeechRecognition/] 
+and text-to-speech module to perform actions based on user's voice commands. 
+This app initially used the (Google text-to-speech API)[https://pypi.org/project/gTTS/] (gTTS), 
+but has been updated to use the offline text-to-speech module (pyttsx3)[https://pypi.org/project/pyttsx3/].
 
 ## Environment
 Python 3.8.3
@@ -18,8 +19,8 @@ pip install pyttsx3
 pip install PyAudio
 pip install pyperclip
 ```
-(If there is any issue in installing PyAudio then download and install the appropriate .whl file from this
-link [https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio))
+(If there is any issue in installing (PyAudio)[https://pypi.org/project/PyAudio/] then download and install the 
+appropriate .whl file from this link [https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio))
 
 For example, as I used python 3.8 for this project, I had downloaded PyAudio-0.2.11-**cp38-cp38**-win32.whl
 from the link.
