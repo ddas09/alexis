@@ -20,7 +20,7 @@ pip install PyAudio
 pip install pyperclip
 ```
 (If there is any issue in installing (PyAudio)[https://pypi.org/project/PyAudio/] then download and install the 
-appropriate .whl file from this link [https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio))
+appropriate .whl file from this (link)[https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio])
 
 For example, as I used python 3.8 for this project, I had downloaded PyAudio-0.2.11-**cp38-cp38**-win32.whl
 from the link.
